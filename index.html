@@ -1,15 +1,650 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plothy</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-</head>
-<body>
-    <h1>plouthy</h1>
-    <button class="btn btn-primary">button</button>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Font+Name&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.plot.ly/plotly-2.20.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+
+  <style>
+    #myDiv .plotly .main-svg {
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    #text-tsx {
+      margin-top: 0px;
+    }
+  </style>
+  <body>
+    <!--  -->
+<div>
+    <div class="Animals_first mt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="line_one"></div>
+            <div class="Animals_text">
+              Habitat loss of threatened
+              <b class="text_under me-2">Avian Animals</b> in Australia
+            </div>
+            <div class="line_second"></div>
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="Images/firstimg.jpg" alt="..." class="img_first" />
+            <img src="Images/secondimg.jpg" alt="..." class="img_first" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Animals_second mt-3">
+      <div class="container d-flex h-100">
+        <div class="row">
+          <div class="col-12 col-md-6 mt-2">
+            <div class="hh">
+              <img
+                src="Images/thirdimg.jpg"
+                alt="..."
+                class="imgsecond"
+                class="w-100"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-12 animals_second_type">
+            <p class="Animals_secondText">What are Avian Animals</p>
+            <ul>
+              <li class="firstbox_li">They are move well known as 'birds'</li>
+              <li class="firstbox_li">
+                Vertebrate animals adapted with the ability to fly
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- imam code start -->
+    <div class="graph-container p-4">
+      <div class="container main-container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="sepecies-index-list h-100">
+              <ul class="list-container p-4">
+                <li class="list-item-container">
+                  Based on the
+                  <span class="australian-species"
+                    >Australian Threatened Species Index for Bird
+                  </span>
+                  by the Threatened Species Index Organisation (TSX), it is
+                  evident that there have been a decrease in population of
+                  threatened Avian animals throughout the years.
+                </li>
+                <li class="list-item-container mt-3">
+                  From the year 2012, the population starts to decrease at an
+                  even faster rate with the decrease being the most evident and
+                  drastic as it progress from 2018 as seen from the steepness of
+                  the slope.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="inner-container p-4 ">
+              <div
+                class="graph-container rounded"
+                id="myDiv"
+               
+              >
+               
+                <img src  = "./Images/ImageMainIndex.png"  class="indexImage"  style = 'height:400px'/>
+              </div>
+            </div>
+          </div>
+        </div>
+ <!-- imam code end -->
+ <!-- imam code start -->
+
+       
+      </div>
+
+      
+    </div>
+    <!-- imam code end -->
+
+
+    <!-- prem code start -->
+    <div class="Animals_Third mt-3">
+      <div class="container">
+          <div class="row">
+              <div class="animals_para d-flex justify-content-between align-items-center flex-column">
+                  <hr class="hr-line" />
+                  <p class="animals_style ">The reason for this was due to the rate of destruction of threatened
+                      species
+                      habitat approved by the
+                      Australian government.
+                  </p>
+                  <p class="animals_style_second">‘The rate of destruction is increasing. During the ﬁve year period
+                      from
+                      2011 to 2016 the government
+                      approved the destruction of 80,000 hectares of threatened species habitat. Despite the worsening
+                      trajectory for threatened species outlined in the 2016. State of the Environment Report, the
+                      rate of
+                      habitat destruction accelerated by 50% in the following ﬁve years. Between 2016 and 2021, more
+                      than
+                      120,000 hectares of threatened species habitat was approved for destruction’(Australian
+                      Conservation
+                      Foundation, 2022).</p>
+
+                  <p class="animals_style_third">It dealt the <b class="inner_text">greatest</b> damage to Avian
+                      animals
+                      as compared to other animals with numerous species of
+                      threatened Avian animals habitat being badly impacted as a result of the destruction.</p>
+                  </div>
+              <hr class="hr-line_second" />
+          </div>
+      </div>
+
+  </div>
+     <!-- prem code end -->
+<!-- chandra code start -->
+    <div class="p-4">
+      <div class="container bar-main-container">
+        <div class="row d-flex justify-content-center">
+          <hr style="border: 2px solid rgb(37, 88, 155); width: 90%" />
+          <div class="col-12 col-md-7">
+            <div class="p-4 h-100">
+              <div class="bar-graph-title">
+                <h3>Industry Breakdown</h3>
+              </div>
+              <div id="myDivs" style="border-radius: 30px">
+                <script>
+                  var bardata = [
+                    {
+                      values: [
+                        75.8, 6.66, 3.91, 7.15, 2.82, 0.84, 0.76, 0.37, 0.13,
+                        0.18, 0.63, 0.04, 0.09, 0.02, 0.0, 0.01, 0.45, 0.06,
+                        // 0.0, 0.0, 0.0, 0.0,
+                      ],
+                      labels: [
+                        "Mining",
+                        "Transport - Land",
+                        "Residential Development",
+                        "Energy Generation and Supply (Renewable)",
+                        "Energy Generation and Supply (Non-Renewable)",
+                        "Water Management and Use",
+                        "Commercial Development",
+                        "Agriculture and Forestry",
+                        "Transport - Water",
+                        "Exploration (Mineral, Oil and Gas - Non-Marine)",
+                        "Tourism and Recreation",
+                        "Commonwealth",
+                        "Transport - Air and Space",
+                        "Waste Management (Non-Sewerage)",
+                        "Waste Management (Sewerage)",
+                        "Private",
+                        "Natural Resources Management",
+                        "Aquaculture",
+                        // "Exploration (Mineral, Oil and Gas - Marine)",
+                        // "Manufacturing",
+                        // "Science and Research",
+                        // "Telecommunications",
+                      ],
+                      showlegend: false,
+                      type: "pie",
+                    },
+                  ];
+
+                  var barlayout = {
+                    // title: "% of total habitat clearing approvals",
+                    showlink: false,
+                    annotations: [],
+                    height: 400,
+                    // width: 600,
+                  };
+
+                  Plotly.newPlot("myDivs", bardata, barlayout);
+                </script>
+                <div>
+                  <p class="australian-bar-graph">
+                    (Australian Conservation Foundation, 2022)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5">
+            <div class="h-100 bar-graph-details">
+              <h2>
+                Out of the total percentage of habitat clearing approvals for
+                industrial purposes, <span style="color: #ca605a">76%</span> of
+                it goes to the use of
+                <span style="color: #ca605a"> Mining.</span>
+              </h2>
+            </div>
+          </div>
+          <hr style="border: 2px solid rgb(37, 88, 155); width: 90%" />
+        </div>
+      </div>
+    </div>
+<!-- chandra code end -->
+
+<!-- prem code start -->
+<div class="Animals_six mt-3">
+  <div class="container">
+      <div class="row">
+          <hr/>
+          <div class="col-12 col-md-12">
+              <p class="text-white text-center text_style">As a result it places those threatened Avian animal species on the list at the risk of extinction as of 2022</p>
+         <img src="Images/graphimg.png" alt="..." class="graph_img" />
+          </div>
+          <p class="fs-4 text-white text_below_graph">(Australian Conservation Foundation, 2022)</p>
+      </div>
+  </div>
+</div>
+
+<!-- prem code end -->
+
+
+<!-- chandra code start -->
+    <div class="p-4">
+      <div class="container bar-main-container">
+        <div class="row d-flex justify-content-center">
+          <hr style="border: 2px solid rgb(37, 88, 155); width: 90%" />
+          <div class="col-12 col-md-5">
+            <div class="p-4 h-100">
+              <!-- <div class="bar-graph-title">
+                <h3>Industry Breakdown</h3>
+              </div> -->
+              <div id="donut-chartDiv" style="border-radius: 30px">
+                <script>
+                  var donutdata = [
+                    {
+                      values: [
+                        25525, 24270, 17622, 10066, 7437, 4626, 4089, 2608,
+                        2588, 2521, 2320, 1834, 1740, 1316, 1298, 922, 908, 731,
+                        386, 326,
+                      ],
+                      labels: [
+                        "Koala",
+                        "Red Goshawk",
+                        "Southern squatter pigeon",
+                        "Ornamental Snake",
+                        "Greater Glider",
+                        "Grey-Headed Flying-fox",
+                        "Corben's Long-eared Bat",
+                        "Malleefowl",
+                        "Southern black-throated finch",
+                        "Swift Parrot",
+                        "Regent Honeyeater",
+                        "Forest red-tailed black-cockatoo",
+                        "Plains Rat, Palyoora",
+                        "Baudin's black-cockatoo",
+                        "Spot-tailed Quoll, Spotted-tail Quoll, Tiger Quoll (South eastern mainland population)",
+                        "Gouldian Finch",
+                        "Bare-rumped sheath-tailed bat, bare-rumped sheathtail bat",
+                        "Golden Sun Moth",
+                        "Slaty Red Gum",
+                        "Northern masked owl",
+                      ],
+                      domain: { column: 0 },
+                      name: "",
+                      hoverinfo: "label+percent+name",
+                      hole: 0.4,
+                      type: "pie",
+                    },
+                  ];
+
+                  var donutlayout = {
+                    title: "hectares approved to be destroyed vs. species",
+                    annotations: [
+                      {
+                        font: {
+                          size: 20,
+                        },
+                        showarrow: false,
+                        text: "",
+                        x: 0.17,
+                        y: 0.5,
+                      },
+                    ],
+                    height: 350,
+                    // width: 600,
+                    showlegend: false,
+                    grid: { rows: 1, columns: 1 },
+                  };
+
+                  Plotly.newPlot("donut-chartDiv", donutdata, donutlayout);
+                </script>
+
+                <div class="donutChartList">
+                  <p style="color: black; font-weight: bolder">Figure 1</p>
+                  <div class="donutPoints">
+                    <h5>Threatened Avian animals in the list :</h5>
+                    <p>Red Goshawk</p>
+                    <p>Southern squatter pigeon</p>
+                    <p>Malleefowl</p>
+                    <p>Southern black-throated finch</p>
+                    <p>Swift Parrot</p>
+                    <p>Regent Honeyeater</p>
+                    <p>Forest red-tailed black-cockatoo</p>
+                    <p>Baudin's black-cockatoo</p>
+                    <p>Gouldian Finch</p>
+                    <p>Northern masked owl</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-7">
+            <div class="h-100 donut-chart-details">
+              <h2>
+                Based on the dataset complied by the Australian Conservation
+                Foundation(ACF) over the destruction of threatened species
+                habitat across the span of 10 years from 2012 to 2021, half of
+                the top 20 threatened species impacted were Avian animals
+              </h2>
+              <h2>
+                <span style="color: #ca605a"> Fiqure 1 </span>illustrates the
+                compilation of the dataset into a pie-chart, showcasing the area
+                of hectares that were approved to be destroyed during the time
+                period against the top 20 threatened species.
+              </h2>
+              <h2>
+                Habitats of avian animals were largely impacted as a total of
+                56,327 hectares of habitat were destroyed, equivalent to 1/4 of
+                Adelaide’s entire metropolitan zone. It also accounts for 46 %
+                of the total hectares approved to be destroyed from 2012 to 202
+              </h2>
+            </div>
+          </div>
+          <hr style="border: 2px solid rgb(37, 88, 155); width: 90%" />
+        </div>
+      </div>
+    </div>
+<!-- chandra code end -->
+
+
+
+<!-- imam code start -->
+<div class="plot-graph-container mt-4">
+  <div class="container">
+    <div class="row">
+      <!-- <div class="newDiv-wrapper-container p-4"> -->
+        <div class="col-12" id="newDiv">
+            <script>
+              const data = [
+                [2012, 0, 0, 0, 0, 8475, 8475, 0, 13.7, 0, 0],
+                [2013, 23276, 0, 0, 0, 8475, 8475, 0, 90.63, 0, 326],
+                [
+                  2014, 23276, 402, 0, 0, 9132.5, 9113, 0, 107.09, 0,
+                  326,
+                ],
+                [
+                  2015, 23276, 3266, 0, 0, 9132.5, 9113, 0, 119.69, 0,
+                  326,
+                ],
+                [
+                  2016, 23276, 7686.9, 0, 0, 9254, 9234.8, 0, 195.39, 0,
+                  326,
+                ],
+                [
+                  2017, 23276, 8428.5, 2544, 0, 9254, 9238.2, 0, 206.99,
+                  0, 326,
+                ],
+                [
+                  2018, 23276, 8585.5, 2544, 0, 9254, 9238.2, 0, 206.99,
+                  616, 326,
+                ],
+                [
+                  2019, 23276, 9602.5, 2544, 0, 9485.7, 9472.9, 0,
+                  222.19, 625.3, 326,
+                ],
+                [
+                  2020, 23276, 15763.1, 2544, 0, 9555.89, 9570.19, 0,
+                  238.44, 625.3, 326,
+                ],
+                [
+                  2021, 23276, 15885.2, 2544, 0, 9833.59, 9815.59, 0,
+                  240.22, 625.3, 326,
+                ],
+              ];
+
+              const colors = [
+                "#1f77b4",
+                "#ff7f0e",
+                "#2ca02c",
+                "#d62728",
+                "#9467bd",
+                "#8c564b",
+                "#e377c2",
+                "#7f7f7f",
+                "#bcbd22",
+                "#17becf",
+              ];
+
+              const seriesNames = [
+                "Red Goshawk",
+                "Southern squatter pigeon",
+                "Malleefowl",
+                "Southern black-throated finch",
+                "Swift Parrot",
+                "Regent Honeyeater",
+                "Forest red-tailed black-cockatoo",
+                "Baudin's black-cockatoo",
+                "Gouldian Finch",
+                "Northern masked owl",
+              ];
+             
+              const hoverData = [
+                { species: "Red Goshawk", year: 2012, hectares: 326 },
+                {
+                  species: "Southern squatter pigeon",
+                  year: 2013,
+                  hectares: 326,
+                },
+                { species: "Malleefowl", year: 2014, hectares: 326 },
+                {
+                  species: "Southern black-throated finch",
+                  year: 2015,
+                  hectares: 326,
+                },
+                { species: "Swift Parrot", year: 2016, hectares: 326 },
+                {
+                  species: "Regent Honeyeater",
+                  year: 2017,
+                  hectares: 326,
+                },
+                {
+                  species: "Forest red-tailed black-cockatoo",
+                  year: 2018,
+                  hectares: 326,
+                },
+                {
+                  species: "Baudins black-cockatoo",
+                  year: 2019,
+                  hectares: 326,
+                },
+                {
+                  species: "Gouldian Finch",
+                  year: 2020,
+                  hectares: 326,
+                },
+                {
+                  species: "Northern masked owl",
+                  year: 2021,
+                  hectares: 326,
+                },
+              ];
+
+              const speciesHover = hoverData.map(
+                (point) => point.species
+              );
+              const yearsHover = hoverData.map((point) => point.year);
+              const hectaresHover = hoverData.map(
+                (point) => point.hectares
+              );
+             
+              const years = data.map((row) => row[0]);
+              const values = data.map((row) => row.slice(1));
+
+              const traces = values[0].map((_, index) => ({
+                x: years,
+                y: values.map((row) => row[index]),
+                name: seriesNames[index],
+                type: "scatter",
+
+                mode: "lines+markers",
+                marker: {
+                  color: colors[index], 
+                },
+                line: {
+                  shape: "spline", // Set the type of curve to 'spline' for slant curve
+                },
+                hovertemplate:
+                  "<b>Species:</b> %{customdata.species}<br>" +
+                  "<b>Year:</b> %{x}" +
+                  "<br>" +
+                  "<b>Hectares of Habitat<br>Destruction Approved:</b> %{customdata.hectares}",
+                customdata: hoverData,
+
+                text: seriesNames[index], 
+              }));
+
+              
+              const layout = {
+                title: {
+                  text: "Low Fidelity Prototype of Total Approved Hectares destroyed for Mining from 2012 to 2021(cumulative)",
+                  font: {
+                    family: "Arial, sans-serif",
+                    size: 20,
+                    weight: "900",
+                    color: "black",
+                  },
+
+                  xref: "paper",
+                  x: 0, 
+                },
+                xaxis: {
+                  title: "Year",
+                  gridcolor: "lightblue", 
+                  gridwidth: 2, 
+                },
+                yaxis: {
+                  title: "Value",
+                  gridcolor: "lightblue", 
+                  gridwidth: 2, 
+                },
+                hoverlabel: {
+                  borderadius: "20px",
+                  bordercolor: "#000",
+                  font: {
+                    family: "Arial",
+                    size: 15,
+                    color: "white",
+                  },
+                  align: "left",
+                  borderwidth: 1,
+                  borderpad: 10,
+                },
+              };
+
+              Plotly.newPlot("newDiv", traces, layout);
+            </script>
+          </div>
+          <div class="col-12">
+            <div class = "outer-newPlot-div-container ">
+
+          
+            <div class = "new-ploat-text-container ">
+          
+           
+            <h1 class="newPlot-text">Each year, a significant area of hectares of habitats are being destroyed for the use of
+              Mining. <span class="interactive-span-text">The interactive Plotly graph</span> will showcase the hectares of habitat being
+              approved for destruction for each threatened Avian animals throughout the years(with the
+              use of Hover templates and data annotations )in order to come with up with
+              a trend for the amount of habitat being used for Mining over the years</h1>
+              <div>
+                <h1 class="newPlot-text mt-4">The result would be that it  <span class="interactive-span-text">either remained constant or increased drastically</span> for
+                  different species
+                 
+              </div>
+          </div>
+        </div>
+        </div>
+        <!-- </div> -->
+      
+     
+    </div>
+  </div>
+</div>
+<!-- imam code end -->
+<!-- prem code start -->
+<div class="Animals_fourth mt-3">
+  <div class="container ">
+     
+      <div class="d-flex justify-content-between flex-column align-items-center para_style">
+          <hr class="hr-line_third" />
+          <p class="animals_style_second_one"><b class="text-white">Choropleth Map </b>would also be used to
+              visualise habitat destruction throughout different states of
+              Australia in order to deduce where most approval of habitat destruction take place</p>
+          <p class="animals_style_second_two">It would also be used to deduce the relationship between number of
+              approvals and hectares being approved
+              to be destroyed</p>
+      </div>
+  </div>
+  <hr class="hr-line_second_third" />
+
+</div>
+
+<!-- prem code end -->
+
+<!-- prem code start -->
+<div class="Animals_five mt-3">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 col-md-6">
+              <img src="Images/fourthimg.jpg" alt="..." class="fourth_img" />
+          </div>
+          <div class="col-12 col-md-6">
+              <div class="d-flex flex-column justify-content-center align-items-center text-center five_animals">
+                  <span class="animal_five_para_one">This would help to support the narrative that mining deals
+                      the <b class="inner_text">greatest damage</b> to habitat loss as it
+                      requires a large area of hectares to be destroyed.</span>
+                  <p class="animal_five_para_two">It is also the <b class="inner_text">main cause</b> of habitat
+                      destruction and numerous habitats of threatened species Avian
+                      animals were destroyed to make way for <b class="inner_text">Mining purposes</b></p>
+
+                  <hr class="hr-line_five" />
+              </div>
+
+
+          </div>
+      </div>
+  </div>
+
+</div>
+
+<!-- prem code end -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
