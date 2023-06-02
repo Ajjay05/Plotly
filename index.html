@@ -34,8 +34,8 @@
   <body>
     <!--  -->
 <div>
-    <div class="Animals_first mt-3">
-      <div class="container">
+    <div class="main_container mt-3">
+      <div class="container Animals_first">
         <div class="row">
           <div class="col-12 col-md-6">
             <div class="line_one"></div>
@@ -53,8 +53,8 @@
       </div>
     </div>
 
-    <div class="Animals_second mt-3">
-      <div class="container d-flex h-100">
+    <div class="main_container mt-3">
+      <div class="container d-flex h-100 Animals_second">
         <div class="row">
           <div class="col-12 col-md-6 mt-2">
             <div class="hh">
@@ -80,9 +80,9 @@
     </div>
   </div>
     <!-- imam code start -->
-    <div class="graph-container p-4">
+    <div class="graph-container p-3">
       <div class="container main-container">
-        <div class="row">
+        <div class="row p-0">
           <div class="col-12 col-md-6">
             <div class="sepecies-index-list h-100">
               <ul class="list-container p-4">
@@ -104,15 +104,15 @@
               </ul>
             </div>
           </div>
-          <div class="col-12 col-md-6">
-            <div class="inner-container p-4 ">
+          <div class="col-12 col-md-6 mb-2">
+            <div class="inner-container">
               <div
                 class="graph-container rounded"
                 id="myDiv"
                
               >
                
-                <img src  = "./Images/ImageMainIndex.png"  class="indexImage"  style = 'height:400px'/>
+                <img src  = "./Images/ImageMainIndex.png"  class="indexImage"  style = 'height:400px;width: 100%'/>
               </div>
             </div>
           </div>
@@ -129,8 +129,8 @@
 
 
     <!-- prem code start -->
-    <div class="Animals_Third mt-3">
-      <div class="container">
+    <div class="main_container mt-3">
+      <div class="container Animals_Third">
           <div class="row">
               <div class="animals_para d-flex justify-content-between align-items-center flex-column">
                   <hr class="hr-line" />
@@ -245,15 +245,15 @@
 <!-- chandra code end -->
 
 <!-- prem code start -->
-<div class="Animals_six mt-3">
-  <div class="container">
+<div class="main_container mt-3">
+  <div class="container Animals_six">
       <div class="row">
           <hr/>
           <div class="col-12 col-md-12">
               <p class="text-white text-center text_style">As a result it places those threatened Avian animal species on the list at the risk of extinction as of 2022</p>
          <img src="Images/graphimg.png" alt="..." class="graph_img" />
           </div>
-          <p class="fs-4 text-white text_below_graph">(Australian Conservation Foundation, 2022)</p>
+          <p class="text_below_graph">(Australian Conservation Foundation, 2022)</p>
       </div>
   </div>
 </div>
@@ -312,11 +312,13 @@
 
                   var donutlayout = {
                     title: "hectares approved to be destroyed vs. species",
+                    font: {
+                          size: 12,
+                        },
+  
                     annotations: [
                       {
-                        font: {
-                          size: 20,
-                        },
+                        
                         showarrow: false,
                         text: "",
                         x: 0.17,
@@ -382,10 +384,10 @@
 
 
 <!-- imam code start -->
-<div class="plot-graph-container mt-4">
+<div class="plot-graph-container p-4">
   <div class="container">
     <div class="row">
-      <!-- <div class="newDiv-wrapper-container p-4"> -->
+      <div class="newDiv-wrapper-container p-4">
         <div class="col-12" id="newDiv">
             <script>
               const data = [
@@ -532,13 +534,13 @@
                   text: "Low Fidelity Prototype of Total Approved Hectares destroyed for Mining from 2012 to 2021(cumulative)",
                   font: {
                     family: "Arial, sans-serif",
-                    size: 20,
+                    size: 14,
                     weight: "900",
                     color: "black",
                   },
 
                   xref: "paper",
-                  x: 0, 
+                  x: 0.5, 
                 },
                 xaxis: {
                   title: "Year",
@@ -587,7 +589,7 @@
           </div>
         </div>
         </div>
-        <!-- </div> -->
+        </div>
       
      
     </div>
@@ -595,8 +597,8 @@
 </div>
 <!-- imam code end -->
 <!-- prem code start -->
-<div class="Animals_fourth mt-3">
-  <div class="container ">
+<div class="main-container mt-3">
+  <div class="container Animals_fourth">
      
       <div class="d-flex justify-content-between flex-column align-items-center para_style">
           <hr class="hr-line_third" />
@@ -615,8 +617,8 @@
 <!-- prem code end -->
 
 <!-- prem code start -->
-<div class="Animals_five mt-3">
-  <div class="container">
+<div class="main-container mt-3">
+  <div class="container Animals_five">
       <div class="row">
           <div class="col-12 col-md-6">
               <img src="Images/fourthimg.jpg" alt="..." class="fourth_img" />
