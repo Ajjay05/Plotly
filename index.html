@@ -250,8 +250,12 @@
       <div class="row">
           <hr/>
           <div class="col-12 col-md-12">
-              <p class="text-white text-center text_style">As a result it places those threatened Avian animal species on the list at the risk of extinction as of 2022</p>
-         <img src="Images/graphimg.png" alt="..." class="graph_img" />
+              
+            <p class="text-white text-center text_style">As a result it places those threatened Avian animal species on the list at the risk of extinction as of 2022</p>
+            <div style="display: flex; align-items: center;">
+
+              <img src="Images/graphimg.png" alt="..." class="graph_img" />
+            </div>
           </div>
           <p class="text_below_graph">(Australian Conservation Foundation, 2022)</p>
       </div>
@@ -273,6 +277,24 @@
               </div> -->
               <div id="donut-chartDiv" style="border-radius: 30px">
                 <script>
+                  window.addEventListener('resize', function() {
+  var titleFontSize = getWindowSizeDependentFontSize();
+  Plotly.relayout('chart', {
+    'title.font.size': titleFontSize
+  });
+});
+
+function getWindowSizeDependentFontSize() {
+  var windowWidth = window.innerWidth;
+
+  if (windowWidth <= 600) {
+    return 12; // Font size for smaller screens
+  } else {
+    return 16; // Font size for larger screens
+  }
+}
+
+
                   var donutdata = [
                     {
                       values: [

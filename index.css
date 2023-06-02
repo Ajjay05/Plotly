@@ -60,6 +60,18 @@
 .donutPoints {
   padding: 30px 0px 30px 20px;
 }
+
+@media (max-width: 600px) {
+  #donut-chartDiv .plotly .main-svg text.title {
+    font-size: 12px; /* Font size for smaller screens */
+  }
+}
+
+@media (min-width: 601px) {
+  #donut-chartDiv .plotly .main-svg text.title {
+    font-size: 16px; /* Font size for larger screens */
+  }
+}
 /* chandra css end */
 
 /* prem css start */
@@ -545,7 +557,7 @@
 
 .fourth_img {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
   object-position: right;
 }
@@ -581,7 +593,7 @@
 }
 
 .text_style {
-  font-size: 55px;
+  font-size: 40px;
   font-weight: bold;
   font-family: "Playfair Display", serif;
 }
@@ -595,7 +607,10 @@
 .text_below_graph {
   font-size: 24px;
   color: white;
+  margin-top: 20px !important;
+
   margin-left: 100px;
+  /* margin-left: 100px; */
 }
 @media screen and (min-width: 1025px) and (max-width: 1550px) {
   .Animals_first {
@@ -781,8 +796,8 @@
     color: white;
   }
   .graph_img {
-    width: 90%;
-    height: 75%;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     padding: 0px 0px 0px 0px;
   }
@@ -871,7 +886,7 @@
   color: brown;
 } */
 
-.newPlot-text {
+/* .newPlot-text {
   margin-top: 12px;
 }
 @media screen and (max-width: 768px) {
@@ -909,6 +924,63 @@
 .newDiv-wrapper-container {
   background-color: #f0ebe0;
   border-radius: 6px;
+} */
+.list-item-container {
+  font-size: 25px;
+  font-family: "sans-serif";
+  letter-spacing: 1px;
+  word-spacing: 0px;
+  color: rgb(89, 88, 88);
+  font-weight: 500;
+  line-height: 1;
+  font-weight: 500;
+}
+.australian-species {
+  font-weight: bold;
+  color: rgb(89, 88, 88);
+}
+.newDiv-wrapper-container {
+  background-color: #f0ebe0;
+  border-radius: 6px;
 }
 
+.new-ploat-text-container {
+  width: 80%;
+}
+
+.outer-newPlot-div-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  font-family: "roboto";
+}
+
+.newPlot-text {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.interactive-span-text {
+  color: brown;
+}
+
+.newPlot-text {
+  margin-top: 12px;
+}
+@media screen and (max-width: 768px) {
+  .newPlot-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .inner-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
 /* imam css end */
