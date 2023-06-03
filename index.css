@@ -4,8 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  padding: 0px 40px;
+  background-color: #c8c169;
+  padding: 40px 40px;
 }
 
 .bar-graph-details h2 {
@@ -18,16 +18,18 @@
   border-radius: 6px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #f0ebe0;
+  background-color: #27764c;
 }
 .bar-graph-title h3 {
   font-weight: bolder;
   font-family: "Arial, sans-serif";
   padding-bottom: 20px;
+  color: #c8c169;
 }
 .australian-bar-graph {
   font-weight: bolder;
   font-family: "Arial, sans-serif";
+  color: #c8c169;
 }
 
 .donut-chart-details {
@@ -38,12 +40,12 @@
 .donut-chart-details h2 {
   font-size: 30px;
   font-family: "Arial, sans-serif";
-  color: rgb(124, 103, 103);
+  color: white;
   padding-top: 40px;
 }
 
 .donutChartList p {
-  color: #ca605a;
+  color: #c8c169;
   font-family: "Arial, sans-serif";
   font-weight: 500;
   padding: 0;
@@ -51,7 +53,7 @@
 }
 
 .donutChartList h5 {
-  color: #ca605a;
+  color: #c8c169;
   font-family: "Arial, sans-serif";
   font-weight: bolder;
   font-size: 18px;
@@ -74,341 +76,37 @@
 }
 /* chandra css end */
 
-/* prem css start */
-/* .Animals_first {
-  width: 100%;
-  height: 100vh;
-  background-color: #f0ebe0;
+/* chandra austraian bird first page css start */
+.australian-bird-main-container {
+  background-color: #27764c;
 }
 
-.Animals_text {
+.australian-bird-header {
+  background-color: #c8c169;
+  width: 95%;
+}
+
+@media screen and (max-width: 768px) {
+  .australian-bird-header {
+    margin: 20px 0px;
+  }
+}
+
+.australian-bird-header h1 {
+  color: white;
   font-size: 50px;
-  font-weight: bold;
-  padding-top: 15rem;
-  font-family: "Playfair Display", serif;
-}
-
-.text_under {
-  color: red;
-}
-.line_one {
-  width: 100%;
-  border: 3px solid #227aaf;
-  margin-top: 3rem;
-}
-.line_second {
-  width: 100%;
-  border: 1px solid #227aaf;
-  margin-top: 15rem;
-}
-
-.Animals_second {
-  width: 100%;
-  height: 100vh;
-  background-color: #f0ebe0;
-}
-
-.hh {
-  height: 100%;
-}
-
-.imgsecond {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: right;
-}
-
-.animals_second_type {
-  padding-top: 10rem;
-  padding-left: 1rem;
-}
-
-.Animals_secondText {
-  font-size: 70px;
-  font-weight: bold;
-  border-top: 3px solid blue;
-  border-bottom: 1px solid blue;
-  font-family: "Playfair Display", serif;
-}
-
-.firstbox_li {
-  font-size: 35px;
-  font-weight: 400;
-  color: gray;
-  font-family: "Playfair Display", serif;
-}
-
-.Animals_Third {
-  height: 100vh;
-  background-color: #f0ebe0;
-}
-
-.hr-line {
-  border-top: 3px solid blue;
-  width: 100%;
-  margin-top: 40px;
-}
-
-.animals_style {
-  font-size: 45px;
-  text-align: center;
-  font-weight: 800;
-  padding: 30px;
-  font-family: "Playfair Display", serif;
-}
-
-.animals_style_second {
-  font-size: 35px;
-  text-align: center;
-  font-weight: 500;
-  color: #367092;
-  font-family: "Playfair Display", serif;
-}
-
-.animals_style_third {
-  font-size: 28px;
-  text-align: center;
   font-weight: 600;
-  font-family: "Playfair Display", serif;
-}
-
-.inner_text {
-  color: brown;
-}
-
-.hr-line_second {
-  border-top: 1px solid blue;
-  width: 100%;
-}
-
-.Animals_fourth {
-  height: 100vh;
-  background-color: #227aaf;
-}
-
-.hr-line_third {
-  border: 3px solid white;
-  width: 100%;
-  opacity: 1;
-  margin-top: 3rem;
-}
-
-.animals_style_second_one {
-  font-size: 42px;
+  font-family: "Arial, sans-serif";
   text-align: center;
-  font-weight: bold;
-  color: white;
-  padding-top: 5rem;
 }
-
-.animals_style_second_two {
-  font-size: 40px;
-  text-align: center;
-  font-weight: 500;
-  color: white;
-  padding-top: 70px;
-}
-
-.hr-line_second_third {
-  border-top: 2px solid white;
+.australian-bird-images-container img {
   width: 100%;
-  margin-top: 5rem !important;
+  height: 100%;
 }
+/* chandra austraian bird first page css end */
 
-.Animals_five {
-  height: 100vh;
-  background-color: #f0ebe0;
-}
+/* prem css start */
 
-.fourth_img {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  object-position: right;
-}
-
-.five_animals {
-  margin-top: 3rem;
-  border-top: 3px solid blue;
-  padding: 80px;
-}
-
-.animal_five_para_one {
-  font-size: 30px;
-  font-weight: bold;
-  font-family: "Playfair Display", serif;
-  padding: 50px 0px 0px 0px;
-}
-
-.animal_five_para_two {
-  font-size: 30px;
-  font-weight: bold;
-  font-family: "Playfair Display", serif;
-  padding: 40px 0px 0px 0px;
-}
-
-.hr-line_five {
-  width: 100%;
-  border-top: 3px solid blue;
-}
-
-.Animals_six {
-  height: 100vh;
-  background-color: #227aaf;
-}
-
-.text_style {
-  font-size: 55px;
-  font-weight: bold;
-  font-family: "Playfair Display", serif;
-}
-
-.graph_img {
-  width: 90%;
-  height: 75%;
-  object-fit: contain;
-  padding: 10px 0px 0px 100px;
-}
-.text_below_graph {
-  padding: 10px 0px 0px 100px;
-}
-
-@media screen and (max-width: 1440px) {
-  .Animals_first {
-    width: 100%;
-    height: auto;
-  }
-
-  .Animals_text {
-    font-size: 35px;
-    font-weight: bold;
-    padding-top: 0px;
-  }
-  .img_first {
-    width: 100%;
-  }
-  .img_first {
-    width: 100%;
-  }
-  .line_second {
-    width: 100%;
-    border: 1px solid #227aaf;
-    margin-top: 0rem;
-    display: none;
-  }
-
-  .Animals_second {
-    height: auto;
-  }
-  .animals_second_type {
-    padding-top: 1rem;
-    padding-left: 1rem;
-  }
-  .Animals_secondText {
-    font-size: 35px;
-    font-weight: bold;
-    border-top: 3px solid blue;
-    border-bottom: 1px solid blue;
-    font-family: "Playfair Display", serif;
-  }
-  .firstbox_li {
-    font-size: 20px;
-    font-weight: 400;
-    color: gray;
-    font-family: "Playfair Display", serif;
-  }
-  .animals_style {
-    font-size: 20px;
-    text-align: center;
-    font-weight: 800;
-    padding: 30px;
-    font-family: "Playfair Display", serif;
-  }
-
-  .animals_style_second {
-    font-size: 20px;
-    text-align: center;
-    font-weight: 500;
-    color: #367092;
-    font-family: "Playfair Display", serif;
-  }
-
-  .animals_style_third {
-    font-size: 20px;
-    text-align: center;
-    font-weight: 600;
-    font-family: "Playfair Display", serif;
-  }
-
-  .Animals_Third {
-    height: auto;
-  }
-  .animals_style_second_one {
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-  }
-
-  .animals_style_second_two {
-    font-size: 30px;
-    text-align: center;
-    font-weight: 500;
-    color: white;
-    padding-top: 70px;
-  }
-  .para_style {
-    padding-top: 1rem;
-  }
-
-  .Animals_fourth {
-    height: auto;
-  }
-
-  .five_animals {
-    margin-top: 3rem;
-    border-top: 3px solid blue;
-    padding: 0px;
-  }
-
-  .animal_five_para_one {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "Playfair Display", serif;
-    padding: 50px 0px 0px 0px;
-  }
-
-  .animal_five_para_two {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "Playfair Display", serif;
-    padding: 40px 0px 0px 0px;
-  }
-  .Animals_five {
-    height: auto;
-  }
-  .Animals_six {
-    height: auto;
-  }
-  .text_style {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "Playfair Display", serif;
-  }
-  .text_below_graph {
-    padding: 0px 0px 0px 10px;
-    margin-top: 40px;
-    font-size: 14px;
-    color: white;
-  }
-  .graph_img {
-    width: 90%;
-    height: 75%;
-    object-fit: contain;
-    padding: 0px 0px 0px 0px;
-  }
-} */
 .Animals_first {
   width: 100%;
   height: 100vh;
@@ -423,7 +121,7 @@
 }
 
 .text_under {
-  color: red;
+  color: #ca605a;
 }
 .line_one {
   width: 100%;
@@ -439,7 +137,7 @@
 .Animals_second {
   width: 100%;
   height: 100vh;
-  background-color: #f0ebe0;
+  background-color: #27764c;
 }
 
 .hh {
@@ -456,9 +154,17 @@
 .animals_second_type {
   padding-top: 10rem;
   padding-left: 1rem;
+  /* background-color: red; */
+  /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+  padding-bottom: 80px;
 }
 
 .Animals_secondText {
+  background-color: #c8c169;
+  color: white;
   font-size: 70px;
   font-weight: bold;
   border-top: 3px solid blue;
@@ -508,7 +214,7 @@
 }
 
 .inner_text {
-  color: brown;
+  color: #ca605a;
 }
 
 .hr-line_second {
@@ -518,7 +224,7 @@
 
 .Animals_fourth {
   height: 100vh;
-  background-color: #227aaf;
+  background-color: #27764c;
 }
 
 .hr-line_third {
@@ -533,7 +239,7 @@
   text-align: center;
   font-weight: bold;
   color: white;
-  padding-top: 5rem;
+  margin-top: 5rem;
 }
 
 .animals_style_second_two {
@@ -552,7 +258,7 @@
 
 .Animals_five {
   height: 100vh;
-  background-color: #f0ebe0;
+  background-color: #27764c;
 }
 
 .fourth_img {
@@ -564,7 +270,7 @@
 
 .five_animals {
   margin-top: 3rem;
-  border-top: 3px solid blue;
+  border-top: 3px solid #c8c169;
   padding: 80px;
 }
 
@@ -573,6 +279,7 @@
   font-weight: bold;
   font-family: "Playfair Display", serif;
   padding: 50px 0px 0px 0px;
+  color: white;
 }
 
 .animal_five_para_two {
@@ -580,16 +287,17 @@
   font-weight: bold;
   font-family: "Playfair Display", serif;
   padding: 40px 0px 0px 0px;
+  color: white;
 }
 
 .hr-line_five {
   width: 100%;
-  border-top: 3px solid blue;
+  border-top: 3px solid #c8c169;
 }
 
 .Animals_six {
   height: 100vh;
-  background-color: #227aaf;
+  background-color: #27764c;
 }
 
 .text_style {
@@ -606,7 +314,7 @@
 }
 .text_below_graph {
   font-size: 24px;
-  color: white;
+  color: #c8c169;
   margin-top: 20px !important;
 
   margin-left: 100px;
@@ -640,7 +348,6 @@
   .Animals_second {
     height: 100%;
     width: 100%;
-    background-color: #f0ebe0;
   }
   .imgsecond {
     width: 100%;
@@ -672,6 +379,17 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .animals_second_type {
+    padding-top: 1rem;
+    padding-left: 1rem;
+
+    padding-bottom: 0px;
+    /* padding: auto !important; */
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .Animals_first {
     width: 100%;
@@ -772,6 +490,7 @@
     font-weight: bold;
     font-family: "Playfair Display", serif;
     padding: 50px 0px 0px 0px;
+    color: white;
   }
 
   .animal_five_para_two {
@@ -779,6 +498,7 @@
     font-weight: bold;
     font-family: "Playfair Display", serif;
     padding: 40px 0px 0px 0px;
+    color: white;
   }
   .Animals_five {
     height: auto;
@@ -802,31 +522,10 @@
     padding: 0px 0px 0px 0px;
   }
 }
+
 /* prem css end */
 
 /* imam css start */
-/* .graph-container {
-  height: 100vh;
-}
-
-.main-container {
-  height: 500px !important;
-}
-.list-container {
-  width: 100%;
-}
-
-@media screen and (max-width: 768px) {
-  .list-container {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .list-item-container {
-    font-size: 15px;
-  }
-}
 
 .list-item-container {
   font-size: 25px;
@@ -840,31 +539,16 @@
 }
 .australian-species {
   font-weight: bold;
-  color: rgb(89, 88, 88);
+  color: #c8c169;
 }
-
-.inner-container {
+.newDiv-wrapper-container {
+  background-color: #27764c;
+  border-radius: 6px;
 }
-.graph-container {
-  height: 50%;
-}
-
-#myDiv {
-  height: 100%;
-  border-radius: 20px !important;
-}
-.graph-outer-container {
-}
-
-.indexImage {
-  height: 100%;
-  width: 100%;
-}
-
-
 
 .new-ploat-text-container {
-  width: 80%;
+  background: #c8c169;
+  width: 85%;
 }
 
 .outer-newPlot-div-container {
@@ -874,97 +558,18 @@
   text-align: center;
 
   font-family: "roboto";
+  margin-top: 2rem;
 }
 
 .newPlot-text {
   font-size: 28px;
   text-align: center;
   font-weight: bold;
+  color: white;
 }
 
 .interactive-span-text {
-  color: brown;
-} */
-
-/* .newPlot-text {
-  margin-top: 12px;
-}
-@media screen and (max-width: 768px) {
-  .newPlot-text {
-    font-size: 20px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .inner-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-}
-
-.main-container {
-  background-color: #f0ebe0;
-  border-radius: 6px;
-}
-.list-item-container {
-  font-size: 25px;
-  font-family: "sans-serif";
-  letter-spacing: 1px;
-  word-spacing: 0px;
-  color: rgb(89, 88, 88);
-  font-weight: 500;
-  line-height: 1;
-  font-weight: 500;
-}
-.australian-species {
-  font-weight: bold;
-  color: rgb(89, 88, 88);
-}
-.newDiv-wrapper-container {
-  background-color: #f0ebe0;
-  border-radius: 6px;
-} */
-.list-item-container {
-  font-size: 25px;
-  font-family: "sans-serif";
-  letter-spacing: 1px;
-  word-spacing: 0px;
-  color: rgb(89, 88, 88);
-  font-weight: 500;
-  line-height: 1;
-  font-weight: 500;
-}
-.australian-species {
-  font-weight: bold;
-  color: rgb(89, 88, 88);
-}
-.newDiv-wrapper-container {
-  background-color: #f0ebe0;
-  border-radius: 6px;
-}
-
-.new-ploat-text-container {
-  width: 80%;
-}
-
-.outer-newPlot-div-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-
-  font-family: "roboto";
-}
-
-.newPlot-text {
-  font-size: 28px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.interactive-span-text {
-  color: brown;
+  color: #ca605a;
 }
 
 .newPlot-text {
@@ -983,4 +588,28 @@
     align-items: center;
   }
 }
+
 /* imam css end */
+
+/* ajay css started */
+
+.Avian-details {
+  color: white;
+}
+
+.Avian-details .second-line {
+  color: #c8c169;
+  font-style: italic;
+}
+.Avian-details .third-line {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.Avian-details .greatest-test {
+  color: #ca605a;
+}
+.Avian-details .hr-layout {
+  border: 2px solid #c8c169;
+}
+
+/* ajay css end */
