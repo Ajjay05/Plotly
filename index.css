@@ -536,6 +536,7 @@
   font-weight: 500;
   line-height: 1;
   font-weight: 500;
+line-height:1.3
 }
 .australian-species {
   font-weight: bold;
@@ -613,3 +614,179 @@
 }
 
 /* ajay css end */
+
+
+/* ali-start */
+
+.last-page-container{
+  background-color: white;
+}
+.choropleth-wrapper-container{
+ background-color: #27764c;
+ border-radius:8px
+}
+
+.horizontal-line-div-container{
+    background-color:   #c8c169;
+    height:2px;
+    width:100%;
+    margin-top:15px;
+     margin-bottom:35px;
+    opacity:0.3
+}
+.new_horizontal{
+   background-color: 2px solid #c8c169;
+  height:100%;
+  width:100%;
+  margin-top:24px;
+ 
+  
+}
+
+.Choropleth-Map-text{
+  font-size: 40px;
+  text-align: center;
+  color:white;
+}
+.choropleth-decription{
+   font-size: 30px;
+  text-align: center;
+  color:#c8c169;
+  font-style: italic;
+   font-family: "roboto";
+}
+.choropleth-text-heading-span-tag{
+  color:#c8c169;
+ font-weight: bold;
+  font-family: "roboto";
+}
+
+.choropleth-parrot-image-container{
+  height:500px;
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.choropleth-img{
+  height: 600px;
+  width: 100%;
+  padding:10px;
+  border-radius: 20px;
+
+}
+
+
+@media screen and (max-width:768px){
+  .choropleth-img{
+  height: 400px;
+}
+
+.choropleth-text-heading-span-tag-parrot{
+  font-size: 21px;
+  text-align: center;
+   font-family: "roboto";
+}
+.choropleth-text-heading-span-tag-parrot-desc{
+  font-size: 13px !important;
+  text-align: center;
+   font-family: "roboto";
+}
+.Choropleth-Map-text{
+   font-size: 21px;
+  text-align: center;
+   font-family: "roboto";
+}
+.choropleth-decription{
+  font-size: 13px !important;
+  text-align: center;
+   font-family: "roboto";
+}
+
+}
+@media screen and (max-width:425px){
+  .choropleth-img{
+  height: 300px;
+}
+.choropleth-text-heading-span-tag-parrot{
+  font-size: 16px;
+  text-align: center;
+   font-family: "roboto";
+}
+.choropleth-text-heading-span-tag-parrot-desc{
+  font-size: 9px !important;
+  text-align: center;
+   font-family: "roboto";
+}
+
+.Choropleth-Map-text{
+  font-size: 16px;
+  text-align: center;
+   font-family: "roboto";
+}
+.choropleth-decription{
+ font-size: 9px !important;
+  text-align: center;
+   font-family: "roboto";
+}
+.newPlot-text{
+  font-size: 16px;
+  text-align: center;
+   font-family: "roboto";
+}
+.new-ploat-text-container{
+  width:100%
+}
+.donut-chart-details >h2{
+  font-size: 16px;
+  text-align: center;
+   font-family: "roboto";
+}
+.australian-bird-header >h1{
+  font-size: 20px !important;
+  text-align: center;
+}
+}
+
+.great-damage-text-desc{
+
+    color:   #c8c169;
+}
+.choropleth-text-heading-span-tag-parrot{
+  color:white;
+ font-weight: 500;
+  font-family: "roboto";
+}
+
+.choropleth-text-heading-span-tag-parrot-desc{
+  font-size:23px;
+   color:white;
+   
+   font-style: italic;
+   font-weight: 400;
+    font-family: "roboto";
+}
+.threatened-Avian-species{
+  border-radius: 6px !important;
+}
+.avaian-text-heading-new{
+  font-family: "roboto";
+}
+.imgsecond{
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+   border-top-right-radius: 8px;
+}
+
+.australian-bird-main-container{
+   border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+   border-top-right-radius: 8px;
+}
+
+.aus-bird-image-new{
+ 
+  border-bottom-right-radius: 8px;
+   border-top-right-radius: 8px;
+}
