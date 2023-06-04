@@ -1,4 +1,7 @@
 /* chandra css start*/
+body {
+  font-family: "Arial, sans-serif" !important;
+}
 
 .bar-graph-details {
   display: flex;
@@ -117,7 +120,8 @@
   font-size: 50px;
   font-weight: bold;
   padding-top: 15rem;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Arial, sans-serif";
 }
 
 .text_under {
@@ -169,14 +173,16 @@
   font-weight: bold;
   border-top: 3px solid blue;
   border-bottom: 1px solid blue;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Arial, sans-serif";
 }
 
 .firstbox_li {
   font-size: 35px;
   font-weight: 400;
   color: gray;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Arial, sans-serif";
 }
 
 .Animals_Third {
@@ -195,7 +201,8 @@
   text-align: center;
   font-weight: 800;
   padding: 30px;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Arial, sans-serif";
 }
 
 .animals_style_second {
@@ -203,14 +210,16 @@
   text-align: center;
   font-weight: 500;
   color: #367092;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Arial, sans-serif";
 }
 
 .animals_style_third {
   font-size: 28px;
   text-align: center;
   font-weight: 600;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Arial, sans-serif";
 }
 
 .inner_text {
@@ -277,7 +286,8 @@
 .animal_five_para_one {
   font-size: 30px;
   font-weight: bold;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Arial, sans-serif";
   padding: 50px 0px 0px 0px;
   color: white;
 }
@@ -285,7 +295,8 @@
 .animal_five_para_two {
   font-size: 30px;
   font-weight: bold;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Arial, sans-serif";
   padding: 40px 0px 0px 0px;
   color: white;
 }
@@ -303,7 +314,8 @@
 .text_style {
   font-size: 40px;
   font-weight: bold;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Arial, sans-serif";
 }
 
 .graph_img {
@@ -423,13 +435,15 @@
     font-weight: bold;
     border-top: 3px solid blue;
     border-bottom: 1px solid blue;
-    font-family: "Playfair Display", serif;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Arial, sans-serif";
   }
   .firstbox_li {
     font-size: 20px;
     font-weight: 400;
     color: gray;
-    font-family: "Playfair Display", serif;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Arial, sans-serif";
   }
   .animals_style {
     font-size: 20px;
@@ -444,14 +458,16 @@
     text-align: center;
     font-weight: 500;
     color: #367092;
-    font-family: "Playfair Display", serif;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Arial, sans-serif";
   }
 
   .animals_style_third {
     font-size: 20px;
     text-align: center;
     font-weight: 600;
-    font-family: "Playfair Display", serif;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Arial, sans-serif";
   }
 
   .Animals_Third {
@@ -488,7 +504,8 @@
   .animal_five_para_one {
     font-size: 20px;
     font-weight: bold;
-    font-family: "Playfair Display", serif;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Arial, sans-serif";
     padding: 50px 0px 0px 0px;
     color: white;
   }
@@ -496,7 +513,8 @@
   .animal_five_para_two {
     font-size: 20px;
     font-weight: bold;
-    font-family: "Playfair Display", serif;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Arial, sans-serif";
     padding: 40px 0px 0px 0px;
     color: white;
   }
@@ -509,7 +527,8 @@
   .text_style {
     font-size: 20px;
     font-weight: bold;
-    font-family: "Playfair Display", serif;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Arial, sans-serif";
   }
   .text_below_graph {
     font-size: 14px;
@@ -529,14 +548,15 @@
 
 .list-item-container {
   font-size: 25px;
-  font-family: "sans-serif";
+  /* font-family: "sans-serif"; */
+  font-family: "Arial, sans-serif";
   letter-spacing: 1px;
   word-spacing: 0px;
   color: rgb(89, 88, 88);
   font-weight: 500;
   line-height: 1;
   font-weight: 500;
-line-height:1.3
+  line-height: 1.3;
 }
 .australian-species {
   font-weight: bold;
@@ -558,7 +578,8 @@ line-height:1.3
   justify-content: center;
   text-align: center;
 
-  font-family: "roboto";
+  /* font-family: "roboto"; */
+  font-family: "Arial, sans-serif";
   margin-top: 2rem;
 }
 
@@ -615,178 +636,185 @@ line-height:1.3
 
 /* ajay css end */
 
-
 /* ali-start */
 
-.last-page-container{
+.last-page-container {
   background-color: white;
 }
-.choropleth-wrapper-container{
- background-color: #27764c;
- border-radius:8px
+.choropleth-wrapper-container {
+  background-color: #27764c;
+  border-radius: 8px;
 }
 
-.horizontal-line-div-container{
-    background-color:   #c8c169;
-    height:2px;
-    width:100%;
-    margin-top:15px;
-     margin-bottom:35px;
-    opacity:0.3
+.horizontal-line-div-container {
+  background-color: #c8c169;
+  height: 2px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  opacity: 0.3;
 }
-.new_horizontal{
-   background-color: 2px solid #c8c169;
-  height:100%;
-  width:100%;
-  margin-top:24px;
- 
-  
+.new_horizontal {
+  background-color: 2px solid #c8c169;
+  height: 100%;
+  width: 100%;
+  margin-top: 24px;
 }
 
-.Choropleth-Map-text{
+.Choropleth-Map-text {
   font-size: 40px;
   text-align: center;
-  color:white;
+  color: white;
 }
-.choropleth-decription{
-   font-size: 30px;
+.choropleth-decription {
+  font-size: 30px;
   text-align: center;
-  color:#c8c169;
+  color: #c8c169;
   font-style: italic;
-   font-family: "roboto";
+  /* font-family: "roboto"; */
+  font-family: "Arial, sans-serif";
 }
-.choropleth-text-heading-span-tag{
-  color:#c8c169;
- font-weight: bold;
-  font-family: "roboto";
+.choropleth-text-heading-span-tag {
+  color: #c8c169;
+  font-weight: bold;
+  /* font-family: "roboto"; */
+  font-family: "Arial, sans-serif";
 }
 
-.choropleth-parrot-image-container{
-  height:500px;
-  width:100%;
-  display:flex;
+.choropleth-parrot-image-container {
+  height: 500px;
+  width: 100%;
+  display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.choropleth-img{
+.choropleth-img {
   height: 600px;
   width: 100%;
-  padding:10px;
+  padding: 10px;
   border-radius: 20px;
-
 }
 
+@media screen and (max-width: 768px) {
+  .choropleth-img {
+    height: 400px;
+  }
 
-@media screen and (max-width:768px){
-  .choropleth-img{
-  height: 400px;
+  .choropleth-text-heading-span-tag-parrot {
+    font-size: 21px;
+    text-align: center;
+    /* font-family: "roboto"; */
+    font-family: "Arial, sans-serif";
+  }
+  .choropleth-text-heading-span-tag-parrot-desc {
+    font-size: 13px !important;
+    text-align: center;
+    /* font-family: "roboto"; */
+    font-family: "Arial, sans-serif";
+  }
+  .Choropleth-Map-text {
+    font-size: 21px;
+    text-align: center;
+    /* font-family: "roboto"; */
+    font-family: "Arial, sans-serif";
+  }
+  .choropleth-decription {
+    font-size: 13px !important;
+    text-align: center;
+    /* font-family: "roboto"; */
+    font-family: "Arial, sans-serif";
+  }
 }
+@media screen and (max-width: 425px) {
+  .choropleth-img {
+    height: 300px;
+  }
+  .choropleth-text-heading-span-tag-parrot {
+    font-size: 16px;
+    text-align: center;
+    /* font-family: "roboto"; */
+    font-family: "Arial, sans-serif";
+  }
+  .choropleth-text-heading-span-tag-parrot-desc {
+    font-size: 9px !important;
+    text-align: center;
+    /* font-family: "roboto"; */
+    font-family: "Arial, sans-serif";
+  }
 
-.choropleth-text-heading-span-tag-parrot{
-  font-size: 21px;
-  text-align: center;
-   font-family: "roboto";
-}
-.choropleth-text-heading-span-tag-parrot-desc{
-  font-size: 13px !important;
-  text-align: center;
-   font-family: "roboto";
-}
-.Choropleth-Map-text{
-   font-size: 21px;
-  text-align: center;
-   font-family: "roboto";
-}
-.choropleth-decription{
-  font-size: 13px !important;
-  text-align: center;
-   font-family: "roboto";
-}
-
-}
-@media screen and (max-width:425px){
-  .choropleth-img{
-  height: 300px;
-}
-.choropleth-text-heading-span-tag-parrot{
-  font-size: 16px;
-  text-align: center;
-   font-family: "roboto";
-}
-.choropleth-text-heading-span-tag-parrot-desc{
-  font-size: 9px !important;
-  text-align: center;
-   font-family: "roboto";
-}
-
-.Choropleth-Map-text{
-  font-size: 16px;
-  text-align: center;
-   font-family: "roboto";
-}
-.choropleth-decription{
- font-size: 9px !important;
-  text-align: center;
-   font-family: "roboto";
-}
-.newPlot-text{
-  font-size: 16px;
-  text-align: center;
-   font-family: "roboto";
-}
-.new-ploat-text-container{
-  width:100%
-}
-.donut-chart-details >h2{
-  font-size: 16px;
-  text-align: center;
-   font-family: "roboto";
-}
-.australian-bird-header >h1{
-  font-size: 20px !important;
-  text-align: center;
-}
-}
-
-.great-damage-text-desc{
-
-    color:   #c8c169;
-}
-.choropleth-text-heading-span-tag-parrot{
-  color:white;
- font-weight: 500;
-  font-family: "roboto";
+  .Choropleth-Map-text {
+    font-size: 16px;
+    text-align: center;
+    /* font-family: "roboto"; */
+    font-family: "Arial, sans-serif";
+  }
+  .choropleth-decription {
+    font-size: 9px !important;
+    text-align: center;
+    /* font-family: "roboto"; */
+    font-family: "Arial, sans-serif";
+  }
+  .newPlot-text {
+    font-size: 16px;
+    text-align: center;
+    /* font-family: "roboto"; */
+    font-family: "Arial, sans-serif";
+  }
+  .new-ploat-text-container {
+    width: 100%;
+  }
+  .donut-chart-details > h2 {
+    font-size: 16px;
+    text-align: center;
+    /* font-family: "roboto"; */
+    font-family: "Arial, sans-serif";
+  }
+  .australian-bird-header > h1 {
+    font-size: 20px !important;
+    text-align: center;
+  }
 }
 
-.choropleth-text-heading-span-tag-parrot-desc{
-  font-size:23px;
-   color:white;
-   
-   font-style: italic;
-   font-weight: 400;
-    font-family: "roboto";
+.great-damage-text-desc {
+  color: #c8c169;
 }
-.threatened-Avian-species{
+.choropleth-text-heading-span-tag-parrot {
+  color: white;
+  font-weight: 500;
+  /* font-family: "roboto"; */
+  font-family: "Arial, sans-serif";
+}
+
+.choropleth-text-heading-span-tag-parrot-desc {
+  font-size: 23px;
+  color: white;
+
+  font-style: italic;
+  font-weight: 400;
+  /* font-family: "roboto"; */
+  font-family: "Arial, sans-serif";
+}
+.threatened-Avian-species {
   border-radius: 6px !important;
 }
-.avaian-text-heading-new{
-  font-family: "roboto";
+.avaian-text-heading-new {
+  /* font-family: "roboto"; */
+  font-family: "Arial, sans-serif";
 }
-.imgsecond{
+.imgsecond {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-   border-top-right-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
-.australian-bird-main-container{
-   border-top-left-radius: 8px;
+.australian-bird-main-container {
+  border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-   border-top-right-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
-.aus-bird-image-new{
- 
+.aus-bird-image-new {
   border-bottom-right-radius: 8px;
-   border-top-right-radius: 8px;
+  border-top-right-radius: 8px;
 }
