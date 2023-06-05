@@ -1,4 +1,3 @@
-/* chandra css start*/
 body {
   font-family: "Arial, sans-serif" !important;
 }
@@ -68,18 +67,16 @@ body {
 
 @media (max-width: 600px) {
   #donut-chartDiv .plotly .main-svg text.title {
-    font-size: 12px; /* Font size for smaller screens */
+    font-size: 12px;
   }
 }
 
 @media (min-width: 601px) {
   #donut-chartDiv .plotly .main-svg text.title {
-    font-size: 16px; /* Font size for larger screens */
+    font-size: 16px;
   }
 }
-/* chandra css end */
 
-/* chandra austraian bird first page css start */
 .australian-bird-main-container {
   background-color: #27764c;
 }
@@ -106,9 +103,6 @@ body {
   width: 100%;
   height: 100%;
 }
-/* chandra austraian bird first page css end */
-
-/* prem css start */
 
 .Animals_first {
   width: 100%;
@@ -120,7 +114,6 @@ body {
   font-size: 50px;
   font-weight: bold;
   padding-top: 15rem;
-  /* font-family: "Playfair Display", serif; */
   font-family: "Arial, sans-serif";
 }
 
@@ -158,11 +151,6 @@ body {
 .animals_second_type {
   padding-top: 10rem;
   padding-left: 1rem;
-  /* background-color: red; */
-  /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
   padding-bottom: 80px;
 }
 
@@ -173,7 +161,6 @@ body {
   font-weight: bold;
   border-top: 3px solid blue;
   border-bottom: 1px solid blue;
-  /* font-family: "Playfair Display", serif; */
   font-family: "Arial, sans-serif";
 }
 
@@ -181,7 +168,6 @@ body {
   font-size: 35px;
   font-weight: 400;
   color: gray;
-  /* font-family: "Playfair Display", serif; */
   font-family: "Arial, sans-serif";
 }
 
@@ -201,7 +187,6 @@ body {
   text-align: center;
   font-weight: 800;
   padding: 30px;
-  /* font-family: "Playfair Display", serif; */
   font-family: "Arial, sans-serif";
 }
 
@@ -210,7 +195,6 @@ body {
   text-align: center;
   font-weight: 500;
   color: #367092;
-  /* font-family: "Playfair Display", serif; */
   font-family: "Arial, sans-serif";
 }
 
@@ -218,7 +202,6 @@ body {
   font-size: 28px;
   text-align: center;
   font-weight: 600;
-  /* font-family: "Playfair Display", serif; */
   font-family: "Arial, sans-serif";
 }
 
@@ -286,7 +269,6 @@ body {
 .animal_five_para_one {
   font-size: 30px;
   font-weight: bold;
-  /* font-family: "Playfair Display", serif; */
   font-family: "Arial, sans-serif";
   padding: 50px 0px 0px 0px;
   color: white;
@@ -295,7 +277,6 @@ body {
 .animal_five_para_two {
   font-size: 30px;
   font-weight: bold;
-  /* font-family: "Playfair Display", serif; */
   font-family: "Arial, sans-serif";
   padding: 40px 0px 0px 0px;
   color: white;
@@ -314,7 +295,6 @@ body {
 .text_style {
   font-size: 40px;
   font-weight: bold;
-  /* font-family: "Playfair Display", serif; */
   font-family: "Arial, sans-serif";
 }
 
@@ -328,9 +308,6 @@ body {
   font-size: 24px;
   color: #c8c169;
   margin-top: 20px !important;
-
-  /* padding-left: 100px; */
-  /* margin-left: 100px; */
 }
 @media screen and (min-width: 1025px) and (max-width: 1550px) {
   .Animals_first {
@@ -396,9 +373,7 @@ body {
   .animals_second_type {
     padding-top: 1rem;
     padding-left: 1rem;
-
     padding-bottom: 0px;
-    /* padding: auto !important; */
   }
 }
 
@@ -435,14 +410,12 @@ body {
     font-weight: bold;
     border-top: 3px solid blue;
     border-bottom: 1px solid blue;
-    /* font-family: "Playfair Display", serif; */
     font-family: "Arial, sans-serif";
   }
   .firstbox_li {
     font-size: 20px;
     font-weight: 400;
     color: gray;
-    /* font-family: "Playfair Display", serif; */
     font-family: "Arial, sans-serif";
   }
   .animals_style {
@@ -458,7 +431,6 @@ body {
     text-align: center;
     font-weight: 500;
     color: #367092;
-    /* font-family: "Playfair Display", serif; */
     font-family: "Arial, sans-serif";
   }
 
@@ -466,7 +438,6 @@ body {
     font-size: 20px;
     text-align: center;
     font-weight: 600;
-    /* font-family: "Playfair Display", serif; */
     font-family: "Arial, sans-serif";
   }
 
@@ -497,14 +468,12 @@ body {
 
   .five_animals {
     margin-top: 3rem;
-    /* border-top: 3px solid blue; */
     padding: 0px;
   }
 
   .animal_five_para_one {
     font-size: 20px;
     font-weight: bold;
-    /* font-family: "Playfair Display", serif; */
     font-family: "Arial, sans-serif";
     padding: 50px 0px 0px 0px;
     color: white;
@@ -513,7 +482,6 @@ body {
   .animal_five_para_two {
     font-size: 20px;
     font-weight: bold;
-    /* font-family: "Playfair Display", serif; */
     font-family: "Arial, sans-serif";
     padding: 40px 0px 0px 0px;
     color: white;
@@ -527,7 +495,6 @@ body {
   .text_style {
     font-size: 20px;
     font-weight: bold;
-    /* font-family: "Playfair Display", serif; */
     font-family: "Arial, sans-serif";
   }
   .text_below_graph {
@@ -542,13 +509,8 @@ body {
   }
 }
 
-/* prem css end */
-
-/* imam css start */
-
 .list-item-container {
   font-size: 25px;
-  /* font-family: "sans-serif"; */
   font-family: "Arial, sans-serif";
   letter-spacing: 1px;
   word-spacing: 0px;
@@ -577,8 +539,6 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-
-  /* font-family: "roboto"; */
   font-family: "Arial, sans-serif";
   margin-top: 2rem;
 }
@@ -611,10 +571,6 @@ body {
   }
 }
 
-/* imam css end */
-
-/* ajay css started */
-
 .Avian-details {
   color: white;
 }
@@ -633,10 +589,6 @@ body {
 .Avian-details .hr-layout {
   border: 2px solid #c8c169;
 }
-
-/* ajay css end */
-
-/* ali-start */
 
 .last-page-container {
   background-color: white;
@@ -671,13 +623,11 @@ body {
   text-align: center;
   color: #c8c169;
   font-style: italic;
-  /* font-family: "roboto"; */
   font-family: "Arial, sans-serif";
 }
 .choropleth-text-heading-span-tag {
   color: #c8c169;
   font-weight: bold;
-  /* font-family: "roboto"; */
   font-family: "Arial, sans-serif";
 }
 
@@ -703,25 +653,21 @@ body {
   .choropleth-text-heading-span-tag-parrot {
     font-size: 21px;
     text-align: center;
-    /* font-family: "roboto"; */
     font-family: "Arial, sans-serif";
   }
   .choropleth-text-heading-span-tag-parrot-desc {
     font-size: 13px !important;
     text-align: center;
-    /* font-family: "roboto"; */
     font-family: "Arial, sans-serif";
   }
   .Choropleth-Map-text {
     font-size: 21px;
     text-align: center;
-    /* font-family: "roboto"; */
     font-family: "Arial, sans-serif";
   }
   .choropleth-decription {
     font-size: 13px !important;
     text-align: center;
-    /* font-family: "roboto"; */
     font-family: "Arial, sans-serif";
   }
 }
@@ -732,32 +678,27 @@ body {
   .choropleth-text-heading-span-tag-parrot {
     font-size: 16px;
     text-align: center;
-    /* font-family: "roboto"; */
     font-family: "Arial, sans-serif";
   }
   .choropleth-text-heading-span-tag-parrot-desc {
     font-size: 9px !important;
     text-align: center;
-    /* font-family: "roboto"; */
     font-family: "Arial, sans-serif";
   }
 
   .Choropleth-Map-text {
     font-size: 16px;
     text-align: center;
-    /* font-family: "roboto"; */
     font-family: "Arial, sans-serif";
   }
   .choropleth-decription {
     font-size: 9px !important;
     text-align: center;
-    /* font-family: "roboto"; */
     font-family: "Arial, sans-serif";
   }
   .newPlot-text {
     font-size: 16px;
     text-align: center;
-    /* font-family: "roboto"; */
     font-family: "Arial, sans-serif";
   }
   .new-ploat-text-container {
@@ -766,7 +707,6 @@ body {
   .donut-chart-details > h2 {
     font-size: 16px;
     text-align: center;
-    /* font-family: "roboto"; */
     font-family: "Arial, sans-serif";
   }
   .australian-bird-header > h1 {
@@ -781,7 +721,6 @@ body {
 .choropleth-text-heading-span-tag-parrot {
   color: white;
   font-weight: 500;
-  /* font-family: "roboto"; */
   font-family: "Arial, sans-serif";
 }
 
@@ -791,14 +730,12 @@ body {
 
   font-style: italic;
   font-weight: 400;
-  /* font-family: "roboto"; */
   font-family: "Arial, sans-serif";
 }
 .threatened-Avian-species {
   border-radius: 6px !important;
 }
 .avaian-text-heading-new {
-  /* font-family: "roboto"; */
   font-family: "Arial, sans-serif";
 }
 .imgsecond {
@@ -820,7 +757,6 @@ body {
 }
 
 .choropath-title {
-  /* padding: 0px 42px; */
   font-size: 40px;
   font-weight: 600;
   font-family: "Arial, sans-serif";
