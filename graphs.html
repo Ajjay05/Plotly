@@ -3,6 +3,9 @@
   <script src="https://cdn.plot.ly/plotly-2.20.0.min.js"></script>
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script> -->
   <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
   <script>
     d3.json("https://plotly-sandy.vercel.app/data.json", function (rows) {
       console.log(rows);
@@ -60,8 +63,5 @@
       Plotly.newPlot("myDiv", data, layout, { showLink: false });
     });
   </script>
-</head>
-
-<body>
   <div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
 </body>
