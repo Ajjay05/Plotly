@@ -1,9 +1,9 @@
 Rank,State,Postal,Population
-1,Australian Capital Teritory,AL,4
-2,New South Wales,AK,24266
-3,Northern Territory,AZ,625
-4,Queensland,AR,44869
-5,South Australia,CA,64
-6,Tasmania,CO,2
-7,Victoria,CT,1
-8,Western Australia,DE,1613
+1,Australian Capital Teritory,ACT,4
+2,New South Wales,NSW,24266
+3,Northern Territory,NT,625
+4,Queensland,QL,44869
+5,South Australia,SA,64
+6,Tasmania,TAS,2
+7,Victoria,VIC,1
+8,Western Australia,WA,1613

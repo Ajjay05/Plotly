@@ -1,9 +1,9 @@
 Rank,State,Postal,Population
-1,Australian Capital Teritory,AL,41
-2,New South Wales,AK,58,288
-3,Northern Territory,AZ,1,712
-4,Queensland,AR,110,759
-5,South Australia,CA,1,892
-6,Tasmania,CO,2
-7,Victoria,CT,1,400
-8,Western Australia,DE,66,025
+1,Australian Capital Teritory,ACT,41
+2,New South Wales,NSW,58,288
+3,Northern Territory,NT,1,712
+4,Queensland,QL,110,759
+5,South Australia,SA,1,892
+6,Tasmania,TAS,2
+7,Victoria,VIC,1,400
+8,Western Australia,WA,66,025
