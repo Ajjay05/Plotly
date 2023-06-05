@@ -359,7 +359,7 @@
                   ];
 
                   var donutlayout = {
-                    title: "hectares approved to be destroyed vs. species",
+                    title: "hectares approved to be <br /> destroyed vs. species",
                     font: {
                           size: 12,
                         },
@@ -474,7 +474,7 @@
                 
                 // Define the layout
                 const layout = {
-                  title: "Low Fidelity Prototype of Total Approved Hectares destroyed for Mining from 2012 to 2021(cumulative)",
+                  title: "Low Fidelity Prototype of Total Approved Hectares <br />destroyed for Mining from 2012 to 2021(cumulative)",
                   font: {
                                     family: "Arial, sans-serif",
                                     size: 14,
@@ -597,13 +597,12 @@
 <!-- choropath map start-->
 <div class="p-4">
   <div class="container australian-bird-main-container">
-    <div class="row" style="position: relative">
-      <h2>Comparison between 2 Choropleth Map across different states</h2>
+    <div class="row ">
+      <h2 class="text-center choropath-title py-3">Comparison between 2 Choropleth Map across different states</h2>
       <div
         class="col-md-6  "
       >
-        <h5>Low-fidelity prototype of Choropleth Map for Hectares
-          approved to be destroyed</h5>
+        <h5></h5>
         <div>
           <div id="choro">
            
@@ -631,7 +630,14 @@
                 ];
           
                 var layout = {
-                  title: "2014 US Popultaion by State",
+                  
+                  title: "Low-fidelity prototype of Choropleth <br /> Map for Hectares approved to be destroyed",
+                  font: {
+                                    family: "Arial, sans-serif",
+                                    size: 10,
+                                    weight: "900",
+                                    color: "black",
+                                  },
                   geo: {
                     scope: "usa",
                     countrycolor: "rgb(255, 255, 255)",
@@ -649,25 +655,38 @@
               
             </script>
           </div>
+          <div class="choropath-details">
+
+            <div class="text-center">
+              This is to find out if number of approval is
+              directly proportional to hectares being
+              destroyed by comparing if the hotspot across
+              different state are constant for both map and 
+              if not what are other factors contributing to
+              the disproportionate relationship between 
+              the two variables.
+            </div>
+          </div>
           
         </div>
 
       </div>
-      <div class="col-md-6 p-0">
-        <div class="">
-          <h5>Low-fidelity prototype of Choropleth Map for Number of
-            Approvals
+      <div class="col-md-6 mb-2 ">
+      
+          <h5>
           </h5>
-        <div id="choro2">
+          
 
-          <script>
-            d3.csv("https://plotly-sandy.vercel.app/2014_usa_states_2.csv").get(function (
-              rows
-            ) {
-              console.log(rows);
-              if (rows === undefined) alert("could not find data.");
-              function unpack(rows, key) {
-                return rows.map(function (row) {
+            <div id="choro2">
+              
+              <script>
+                d3.csv("https://plotly-sandy.vercel.app/2014_usa_states_2.csv").get(function (
+                  rows
+                  ) {
+                    console.log(rows);
+                    if (rows === undefined) alert("could not find data.");
+                    function unpack(rows, key) {
+                      return rows.map(function (row) {
                   return row[key];
                 });
               }
@@ -682,9 +701,15 @@
                   autocolorscale: true,
                 },
               ];
-          
+              
               var layout = {
-                title: "2014 US Popultaion by State",
+                title: "Low-fidelity prototype of <br />Choropleth Map for Number of Approvals",
+                font: {
+                                    family: "Arial, sans-serif",
+                                    size: 10,
+                                    weight: "900",
+                                    color: "black",
+                                  },
                 geo: {
                   scope: "usa",
                   countrycolor: "rgb(255, 255, 255)",
@@ -700,9 +725,22 @@
               Plotly.newPlot("choro2", data, layout, { showLink: false });
             });
             
-          </script>
+            </script>
 
-        </div>
+            </div>
+            <div class="choropath-details">
+
+              <div class="text-center " style="">
+                The result would be that Approvals to
+                destruct habitat for mining will take up
+                a large quantity of hectares to be
+                destroyed, and hence a lower number of
+                approval rate does not imply that the
+                area of hectares being destroyed would
+                be low too.
+              </div>
+            </div>
+            </div>
         
              
             
@@ -726,16 +764,16 @@
         <div class="col-md-6 col-12 d-flex flex-column justify-content-center">
           <div class="parrot-text-container p-3">
                  <h1 class = "choropleth-text-heading-span-tag-parrot">This would help to support the
-narrative that mining deals the <span class ="great-damage-text-desc">greatest damage</span>
- to habitat loss as it
-requires a large area of hectares to
-be destroyed. 
-</h1>
-<p class = "choropleth-text-heading-span-tag-parrot-desc">It is also the <span class ="great-damage-text-desc">main cause</span> of habitat
-destruction and numerous habitats
-of threatened species Avian animals
-were destroyed to make way for  <span class ="great-damage-text-desc">Mining purposes</span>
-</p>
+                      narrative that mining deals the <span class ="great-damage-text-desc">greatest damage</span>
+                      to habitat loss as it
+                      requires a large area of hectares to
+                      be destroyed. 
+                      </h1>
+                      <p class = "choropleth-text-heading-span-tag-parrot-desc">It is also the <span class ="great-damage-text-desc">main cause</span> of habitat
+                      destruction and numerous habitats
+                      of threatened species Avian animals
+                      were destroyed to make way for  <span class ="great-damage-text-desc">Mining purposes</span>
+                      </p>
           </div>
        
          </div>

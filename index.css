@@ -818,3 +818,17 @@ body {
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
 }
+
+.choropath-title {
+  /* padding: 0px 42px; */
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Arial, sans-serif";
+  color: #c8c169;
+}
+
+.choropath-details {
+  padding: 16px 0px;
+  color: #c8c169;
+  font-family: "Arial, sans-serif";
+}
