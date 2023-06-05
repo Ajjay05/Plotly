@@ -583,7 +583,118 @@
      
     </div>
   </div>
+</div> 
+
+
+<!-- choropath map start-->
+<div class="p-4">
+  <div class="container australian-bird-main-container">
+    <div class="row" style="position: relative">
+      <h2>Comparison between 2 Choropleth Map across different states</h2>
+      <div
+        class="col-md-6  "
+      >
+        <h5>Low-fidelity prototype of Choropleth Map for Hectares
+          approved to be destroyed</h5>
+        <div>
+          <script>
+            d3.csv("https://plotly-sandy.vercel.app/2014_usa_states.csv").get(function (
+              rows
+            ) {
+              console.log(rows);
+              if (rows === undefined) alert("could not find data.");
+              function unpack(rows, key) {
+                return rows.map(function (row) {
+                  return row[key];
+                });
+              }
+
+              var data = [
+                {
+                  type: "choropleth",
+                  locationmode: "USA-states",
+                  locations: unpack(rows, "Postal"),
+                  z: unpack(rows, "Population"),
+                  text: unpack(rows, "State"),
+                  autocolorscale: true,
+                },
+              ];
+
+              var layout = {
+                title: "2014 US Popultaion by State",
+                geo: {
+                  scope: "usa",
+                  countrycolor: "rgb(255, 255, 255)",
+                  showland: true,
+                  landcolor: "rgb(217, 217, 217)",
+                  showlakes: true,
+                  lakecolor: "rgb(255, 255, 255)",
+                  subunitcolor: "rgb(255, 255, 255)",
+                  lonaxis: {},
+                  lataxis: {},
+                },
+              };
+              Plotly.newPlot("myDiv", data, layout, { showLink: false });
+            });
+            
+          </script>
+        </div>
+
+      </div>
+      <div class="col-md-6 p-0">
+        <div class="">
+          <h5>Low-fidelity prototype of Choropleth Map for Number of
+            Approvals</h5>
+            <div>
+              <script>
+                d3.csv("https://plotly-sandy.vercel.app/2014_usa_states.csv").get(function (
+                  rows
+                ) {
+                  console.log(rows);
+                  if (rows === undefined) alert("could not find data.");
+                  function unpack(rows, key) {
+                    return rows.map(function (row) {
+                      return row[key];
+                    });
+                  }
+    
+                  var data = [
+                    {
+                      type: "choropleth",
+                      locationmode: "USA-states",
+                      locations: unpack(rows, "Postal"),
+                      z: unpack(rows, "Population"),
+                      text: unpack(rows, "State"),
+                      autocolorscale: true,
+                    },
+                  ];
+    
+                  var layout = {
+                    title: "2014 US Popultaion by State",
+                    geo: {
+                      scope: "usa",
+                      countrycolor: "rgb(255, 255, 255)",
+                      showland: true,
+                      landcolor: "rgb(217, 217, 217)",
+                      showlakes: true,
+                      lakecolor: "rgb(255, 255, 255)",
+                      subunitcolor: "rgb(255, 255, 255)",
+                      lonaxis: {},
+                      lataxis: {},
+                    },
+                  };
+                  Plotly.newPlot("myDiv", data, layout, { showLink: false });
+                });
+                
+              </script>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+<!-- choropath map end -->
 
 <!-- PARROT-SECTION -->
   <div class = "last-page-container mb-4 px-4">
