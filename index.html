@@ -19,6 +19,53 @@
     <script src="https://cdn.plot.ly/plotly-2.20.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
     <script src="index.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.20.0.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script> -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+
+    <script>
+      d3.csv("https://plotly-sandy.vercel.app/2014_usa_states.csv").get(function (
+        rows
+      ) {
+        console.log(rows);
+        if (rows === undefined) alert("could not find data.");
+        function unpack(rows, key) {
+          return rows.map(function (row) {
+            return row[key];
+          });
+        }
+  
+        var data = [
+          {
+            type: "choropleth",
+            locationmode: "USA-states",
+            locations: unpack(rows, "Postal"),
+            z: unpack(rows, "Population"),
+            text: unpack(rows, "State"),
+            autocolorscale: true,
+          },
+        ];
+  
+        var layout = {
+          title: "2014 US Popultaion by State",
+          geo: {
+            scope: "usa",
+            countrycolor: "rgb(255, 255, 255)",
+            showland: true,
+            landcolor: "rgb(217, 217, 217)",
+            showlakes: true,
+            lakecolor: "rgb(255, 255, 255)",
+            subunitcolor: "rgb(255, 255, 255)",
+            lonaxis: {},
+            lataxis: {},
+          },
+        };
+        Plotly.newPlot("myDiv", data, layout, { showLink: false });
+      });
+      
+    </script>
+
   </head>
 
   <style>
@@ -597,7 +644,8 @@
         <h5>Low-fidelity prototype of Choropleth Map for Hectares
           approved to be destroyed</h5>
         <div>
-          <script>
+          <div id="myDiv">
+            <!-- <script>
             d3.csv("https://plotly-sandy.vercel.app/2014_usa_states.csv").get(function (
               rows
             ) {
@@ -637,16 +685,20 @@
               Plotly.newPlot("myDiv", data, layout, { showLink: false });
             });
             
-          </script>
+          </script> -->
+          </div>
+          
         </div>
 
       </div>
       <div class="col-md-6 p-0">
         <div class="">
           <h5>Low-fidelity prototype of Choropleth Map for Number of
-            Approvals</h5>
-            <div>
-              <script>
+            Approvals
+          </h5>
+          <!-- <div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div> -->
+        
+              <!-- <script>
                 d3.csv("https://plotly-sandy.vercel.app/2014_usa_states.csv").get(function (
                   rows
                 ) {
@@ -686,8 +738,8 @@
                   Plotly.newPlot("myDiv", data, layout, { showLink: false });
                 });
                 
-              </script>
-            </div>
+              </script> -->
+            
 
         </div>
       </div>
